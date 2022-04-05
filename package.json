@@ -1,6 +1,6 @@
 {
   "name": "inoutbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "helper that make descrete systems - running on one app/multiple apps/remote app - communicatable with each other on one web socket per one app. it help systems communicate by calling remote procedure",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

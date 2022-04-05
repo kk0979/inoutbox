@@ -310,7 +310,7 @@ export class Messenger {
 
   public fromOutside(msg: Format.Msg) {
     // socket -> outbox
-    let msgBox = this.boxes.get(msg.From);
+    let msgBox = this.boxes.get(msg.From)?.box;
     if (msgBox === undefined) {
       console.log(
         `fromOutside() Error: no box(${msg.From}). msg will be dropped`
